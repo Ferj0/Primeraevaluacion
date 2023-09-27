@@ -91,6 +91,25 @@ class Program
             Console.Write("¿Desea realizar otra operación en Pares e Impares? (s/n): ");
         } while (Console.ReadLine().Trim().ToLower() == "s");
     }
+  static void TablaDeMultiplicar()
+    {
+        do
+        {
+            Console.Write("Ingrese un número entero positivo: ");
+            if (int.TryParse(Console.ReadLine(), out int numero))
+            {
+                for (int i = 1; i <= 12; i++)
+                {
+                    Console.WriteLine($"{numero}x{i} = {numero * i}");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Entrada no válida. Por favor, ingrese un número entero positivo.");
+            }
 
+            Console.Write("¿Desea realizar otra operación en Tabla de Multiplicar? (s/n): ");
+        } while (Console.ReadLine().Trim().ToLower() == "s");
+    }
 
 }
