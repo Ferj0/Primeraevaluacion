@@ -1,4 +1,2 @@
-•	Bermúdez Medrano Fernando José.
-•	Gutiérrez Vega Jahary Nahomy.
-•	Delgado Miranda Angelo Gabriel.
-•	Canda Cruz José Abemilek.
+•	Bermúdez Medrano Fernando José. 23904816
+
