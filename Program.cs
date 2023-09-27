@@ -89,7 +89,7 @@ class Program
             }
 
             Console.Write("¿Desea realizar otra operación en Pares e Impares? (s/n): ");
-        } while (Console.ReadLine().Trim().ToLower() == "s");
+        } while (Console.ReadLine()?.Trim().ToLower() == "s");
     }
   static void TablaDeMultiplicar()
     {
@@ -109,7 +109,7 @@ class Program
             }
 
             Console.Write("¿Desea realizar otra operación en Tabla de Multiplicar? (s/n): ");
-        } while (Console.ReadLine().Trim().ToLower() == "s");
+        } while (Console.ReadLine()?.Trim().ToLower() == "s");
     }
       static void Factorial()
     {
@@ -131,7 +131,7 @@ class Program
             }
 
             Console.Write("¿Desea calcular otro factorial? (s/n): ");
-        } while (Console.ReadLine().Trim().ToLower() == "s");
+        } while (Console.ReadLine()?.Trim().ToLower() == "s");
     }
     static void NumerosPrimos()
     {
@@ -160,7 +160,7 @@ class Program
             }
 
             Console.Write("¿Desea realizar otra operación en Números Primos? (s/n): ");
-        } while (Console.ReadLine().Trim().ToLower() == "s");
+        } while (Console.ReadLine()?.Trim().ToLower() == "s");
     }
 
     static bool EsPrimo(int numero)
@@ -216,7 +216,7 @@ class Program
             }
 
             Console.Write("¿Desea generar otra sucesión de Fibonacci? (s/n): ");
-        } while (Console.ReadLine().Trim().ToLower() == "s");
+        } while (Console.ReadLine()?.Trim().ToLower() == "s");
     }
 
 }
